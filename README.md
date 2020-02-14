@@ -39,3 +39,8 @@ n = n^m
 10.可以给for循环取别名,跳出的时候也可以在break后面指定跳出哪个循环, continue也有这个功能, break和continue后面记得加上;
 
 11.函数的重载只和参数列表有关系.
+
+12. switch 语句. 在 Java 7之前，实现基于字符串的条件流的唯一方法是使用 if-else 条件。 但是 Java 7也改进了 switch case 来支持 String。Switch中使用String需要注意一下几点:
+* Java中switch是通过String.equals 方法来比较传递值和case值，所以请确保添加 NULL 检查以避免 NullPointerException
+* Java switch case String只能在Java7或更高的版本中使用，否则它会抛出异常
+(原文链接：https://blog.csdn.net/u011479200/article/details/83177459)
