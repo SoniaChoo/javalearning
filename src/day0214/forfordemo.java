@@ -1,3 +1,4 @@
+//package day0214;
 public class forfordemo {
     public static void main(String  []args) {
         for (int x = 1; x <= 9; x++) {
