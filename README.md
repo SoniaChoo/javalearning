@@ -462,7 +462,7 @@ this语句只能定义在构造函数的第一行。因为初始化要先执行�
 
 3.sop(it.next+"..."+it.next)打印的是两个元素.
 
-4.list用add方法存放对象时,add的默认参数是object,所以,在后面迭代器取出时,我们千万不要忘记类型强制转换,不然会运行出错.
+4.list用add方法存放对象时,add的默认参数是object,所以,在后面迭代器取出时,我们千万不要忘记类型强制转换,不然会运行出错.可以看ArrayListTest2.java.java
 
 5.list集合判断元素是否相同,用的是equals方法,其他集合和它不一样,这个要记一下.contains和remove方法调用的是equals,所以我们比较的时候可能需要复写equals方法,如果你不复写,那么默认调用的equals方法比较的是地址.
 
