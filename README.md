@@ -1,3 +1,10 @@
+1.https://blog.csdn.net/weixin_40995778/article/details/91126976
+反转链表 每k个反转一次
+
+pta pat 反转链表:
+https://blog.csdn.net/huanglei305/article/details/105138615/
+
+---------------------------------------------------------------------------------------20200331
 首先来简单了解一下nextInt()和nextLine()它们的运行机制：
 nextInt()：接收一个整型数字，注意，它只接收数字；
 nextLine():接收一串字符串，包括空格、制表符、换行符。
